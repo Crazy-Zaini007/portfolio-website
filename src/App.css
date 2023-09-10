@@ -1,38 +1,403 @@
-.App {
-  text-align: center;
-}
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+ @import url('https://fonts.googleapis.com/css2?family=Dosis&family=PT+Sans&family=Roboto&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Caveat&family=Dosis&family=Noto+Sans+Osmanya&family=PT+Sans&family=Roboto&display=swap');
+*{
+    padding: 0%;
+    margin:0%;
+   font-family: 'Dosis', sans-serif;
+font-family: 'PT Sans', sans-serif;
+font-family: 'Roboto', sans-serif;
+background: white;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+::-webkit-scrollbar {
+    width: 2px;
+    height: 0px;
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: black;
   }
-  to {
-    transform: rotate(360deg);
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #9191ff;
   }
+  
+  /* Handle on hover */
+  
+  
+  /*Combine Navbar */
+
+  
+:root{ 
+    --primaryColor:#9191ff;
+    --secondaryColor:#FCC028;
+  }
+
+
+  /* Navbar */
+ 
+  .navbar .navbar-brand{
+    color:var(--primaryColor);
+    font-weight: 800;
+    font-size: 24px;
+    font-family: 'Caveat', cursive;
+    letter-spacing: 1.5px;
+  }
+  .navbar .navbar-nav .nav-item a{
+    color: black;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 1.5px;
+    border: 0px;
+  }
+  .navbar .navbar-nav .nav-item a:focus{
+    outline: none;
+    border: 0px;
+  }
+  .navbar .navbar-nav .nav-item:focus{
+    outline: none;
+    border: 0px;
+  }
+
+  .navbar .navbar-nav .nav-item .download{
+    color: white;
+    background-color: #25d366;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 1.5px;
+  }
+
+  .navbar .navbar-toggler{
+    color:#007acc;
+  }
+  .navbar .navbar-toggler:focus{
+    outline: none;
+  }
+
+.intro span{
+color: var(--primaryColor);
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.carousel h2{
+color: #000;
+font-size: 30px;
+font-style: normal;
+line-height: normal;
+height: 200%;
+}
+.carousel h2 span{
+    font-size: 18px;
+}
+.carousel h2 strong{
+    color: var(--primaryColor);
+}
+.carousel h2 .name{
+    color: #25d366;
+    font-size: 34px;
+    font-weight: 700;
+}
+.carousel .call{
+    background-color: #25d366;
+    color: white;
+    font-weight: 600;
+    letter-spacing: 1.5px;
+} 
+.carousel .btn:focus{
+    outline: none;
+    border: none;
+}
+
+.carousel .download{
+    color: black;
+    font-weight: 500;
+    letter-spacing: 1.5px;
+}
+.carousel .download i{
+    font-size: 16px;
+    color: #25d366;
+    font-weight: 700;
+
+}
+.carousel .skills h6{
+    font-size: 30px;
+    color: #9191ff;
+    font-weight: 700;
+}
+.carousel .skills p{
+    font-size: 12px;
+}
+.carousel .feelance h6{
+    color: #ffa221;
+    font-weight: 700;
+    font-size: 30px;
+}
+.carousel .feelance p{
+    font-size: 12px;
+
+}
+.carousel .projects h6{
+    color: #fbbb93;
+    font-weight: 700;
+    font-size: 30px;
+}
+.carousel .projects p{
+    font-size: 12px;
+
+}
+
+
+/* About me */
+.about-me img{
+    height: 100%;
+
+}
+.about-me h2{
+    color:black;
+    font-size: 22px;
+    font-weight: 800;
+}
+.about-me h5{
+    color: #9191ff;
+    font-weight: 600;
+}
+.about-me p{
+    text-align: justify;
+    font-size: 14px;
+}
+.about-me p strong{
+    color: #25d366;
+    display: inline-block;
+    font-weight: 800;
+    letter-spacing: 1px;
+}
+.about-me img{
+    height: 100%;
+    width: 100%;
+}
+.about-me span{
+    font-size: 12px;
+    color: #FCC028;
+}
+.about-me .progress{
+    height: 8px;
+}
+.about-me .progress .mern{
+    background-color: #25d366;
+    width: 100%;
+}
+.about-me .progress .react{
+    background-color: #61DBFB;
+    width: 100%;
+}
+
+.about-me .progress .node{
+    background-color: #3c873a;
+    width: 100%;
+}
+.about-me .progress .express{
+    background-color: #68A063;
+    width: 100%;
+}
+.about-me .progress .js{
+    background-color: #f7df1e;
+    width: 100%;
+}
+.about-me .progress .mongo{
+    background-color: green;
+    width: 100%;
+}
+.about-me .progress .ts{
+    background-color: #007acc;
+    width: 100%;
+}
+.about-me .progress .material{
+    background-color: #29B6F6;
+    width: 100%;
+}
+.about-me .progress .jq{
+    background-color: #0769ad;
+    width: 100%;
+}
+.about-me .progress .rl{
+    background-color: black;
+    width: 100%;
+}
+.about-me .progress .npm{
+    background-color: #CC3534;
+    width: 100%;
+}
+.about-me .progress .api{
+    background-color:rgb(83, 80, 80);
+    width: 100%;
+}
+.about-me .progress .apii{
+    background-color:rgb(189, 183, 183);
+    width: 100%;
+}
+
+.about-me .progress .html{
+    background-color:#f06529;
+    width: 100%;
+}
+.about-me .progress .css {
+    background-color: #264de4;
+    width: 100%;
+}
+.about-me .progress .bt {
+    background-color: #3B71CA;
+    width: 100%;
+}
+.about-me .progress .cd {
+    background-color: blue;
+    width: 100%;
+}
+
+.services h2{
+    color: #0769ad;
+    font-weight: 600;
+    letter-spacing: 1.5px;
+}
+
+.services p{
+
+    text-align: justify;
+    font-size: 14px;
+}
+.services p strong{
+    color: #25d366;
+    display: inline-block;
+    font-weight: 800;
+    letter-spacing: 1px;
+}
+.services .card .card-body{
+    border-radius: 10px;
+    height: 100%;
+}
+.services img{
+    height: 100%;
+}
+.services .card .card-body h5{
+    color: black;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+.services .card .card-body p{
+    font-size: 14px;
+    letter-spacing: 1px;
+    color: #0769ad;
+    font-weight: 500;
+} 
+.services .card .card-body .images{
+    display: block;
+}
+.services .card .card-body img{
+    height: 30px;
+    width: 30px;
+}
+
+/* Conatcts */
+.contacts img{
+    height: 100%;
+    width: 100%;
+}
+.contacts h2{
+    color:black;
+    font-size: 22px;
+    font-weight: 800;
+}
+.contacts h5{
+    color: #9191ff;
+    font-weight: 600;
+}
+.contacts p{
+    text-align: justify;
+    font-size: 14px;
+}
+.contacts p strong{
+    color: #25d366;
+    display: inline-block;
+    font-weight: 800;
+    letter-spacing: 1px;
+}
+
+.contacts h6{
+    color: #007acc;
+    font-weight: 600;
+}
+.contacts a{
+    color:black;
+    font-size: 16px;
+    text-decoration: none;
+}
+.contacts .fa-whatsapp{
+    color:#25d366;
+    font-size: 22px;
+    font-weight: 600;
+} 
+.contacts .fa-envelope{
+    color:#007acc;
+    font-size: 22px;
+    font-weight: 600;
+}
+.contacts .fa-github{
+    font-size: 22px;
+}
+
+
+
+
+/* Footer */
+.footer .col-md-12{
+    background-color: #007acc;
+}
+
+
+
+/* Projects */
+.projects h2{
+    color: black;
+    font-weight: 500;
+    font-size: 26px;
+}
+
+.projects .carousel button{
+    height: 0px;
+    width: 0px;
+}
+.projects h5{
+    color: #25d366;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.projects h6{
+    color: #007acc;
+}
+.projects h4{
+    color: #007acc;
+    font-weight: 600;
+    font-size: 16px;
+}
+.projects p{
+    text-align: justify;
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+
+.projects .images{
+    display: block;
+}
+.projects .images img{
+    height: 30px;
+    width: 30px;
+}
+.projects a{
+    color: black;
+    font-size: 12px;
+    text-decoration:underline;
 }
