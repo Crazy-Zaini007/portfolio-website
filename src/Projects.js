@@ -76,8 +76,10 @@ export default function Projects() {
                 <h2 className=''>Projects using MERN Stack</h2>
             </div>
             <div className="col-md-6">
-                <h5>Final Year Project (in University)</h5>
+                <h5>Final Year Project (in University) </h5>
                 <h6>Description:</h6>
+                <p><strong>Note: Top 10 Ranking: My Final Year Project
+Among the Best 10 at HERA Inter Universities Exhibition 2023.</strong></p>
                 <p>A web-based Application where we connect unemployed drivers with auto-owners who need drivers for there vehicles. Drive deals includes shift and
                 experience based jobs for the drivers, where drivers submit applications for
                 the jobs posted by auto-owners. And drivers creates their gigs as well, where

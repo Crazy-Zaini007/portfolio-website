@@ -39,14 +39,20 @@ export default function HomePage() {
               <Slide>
               <h2><span>Hi Visitiors,</span><br/> Meet with the Passionate <br/><strong>MERN Stack Developer <br /></strong><b className='border px-2 rounded name'>Zainullah Khan</b></h2>
               </Slide>
-             <p className="pb-3 pt-2">As a graduate in Bachelor's in Computer Science, I have embarked on my career journey with a
-                focus on MERN Stack development, I bring a strong foundation in modern web technologies and a
-                passion for creating interactive, user-friendly applications.</p>
+             <p className="pb-3 pt-2">As an aspiring MERN Stack developer with 6 months of
+                            hands-on experience, I aim to contribute my expertise in
+                            web development to a forward-thinking organization. With a
+                            strong foundation in modern web technologies, I am
+                            dedicated to collaborating with dynamic teams to craft
+                            innovative, user-friendly applications. I seek a challenging
+                            MERN Stack developer role in a growth-oriented company to
+                            make a meaningful impact and continue my professional
+                            growth</p>
              <Fade cascade={true} damping={2} duration={1500} className='d-inline m-1 my-2'>
-             <a className='btn shadow call ' href=" https://wa.me/923046760779" target="_blank">Hire Me</a>
+             <a className='btn shadow call ' href="https://wa.me/923046760779" target="_blank" rel="noreferrer">Hire Me</a>
              </Fade>
              <Fade cascade={true} damping={2} duration={1500} className='d-inline m-1 my-2'>
-             <a className='btn download border rounded' href='./images/Zainullah Khan Developer.pdf' download>Download CV <i class="far fa-cloud-download-alt"></i></a>
+             <a className='btn download border rounded' href='/Zainullah-Khan (6).pdf' download="Zainullah Khan CV">Download CV <i className="far fa-cloud-download-alt"></i></a>
              </Fade>
 
              <div className="row mt-3 justify-content-center ">
@@ -59,8 +65,8 @@ export default function HomePage() {
               <p>Years Experience in Freelancing Projects</p>
               </div>
               <div className="col-md-4 col-sm-6 projects text-center p-md-2">
-              <h6><CountUp start={0}  end={10} /> +</h6>
-              <p>Projects done for Local and Foreign Clients</p>
+              <h6><CountUp start={0}  end={6} /> + </h6>
+              <p>Months experience in on-site job</p>
               </div>
              </div>
             </div>
@@ -102,80 +108,80 @@ export default function HomePage() {
     <div className="col-md-6 my-1" >
      
 <p className='my-2'><span className="material-icons">radio_button_checked</span> React JS</p>
-      <div class="progress m-0 p-0 rounded">
-  <div class="progress-bar react progress-bar-animated progress-bar-striped" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
+      <div className="progress m-0 p-0 rounded">
+  <div className="progress-bar react progress-bar-animated progress-bar-striped" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
 </div>
 
 <p className='my-2'><span className="material-icons">radio_button_checked</span> Node JS</p>
-      <div class="progress m-0 p-0 rounded">
-  <div class="progress-bar progress-bar-animated progress-bar-striped node" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
+      <div className="progress m-0 p-0 rounded">
+  <div className="progress-bar progress-bar-animated progress-bar-striped node" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
 </div>
 <p className='my-2'><span className="material-icons">radio_button_checked</span> Express JS</p>
-      <div class="progress m-0 p-0 rounded">
-  <div class="progress-bar progress-bar-animated progress-bar-striped express" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
+      <div className="progress m-0 p-0 rounded">
+  <div className="progress-bar progress-bar-animated progress-bar-striped express" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
 </div>
 <p className='my-2'><span className="material-icons">radio_button_checked</span> JavaScript</p>
-      <div class="progress m-0 p-0 rounded">
-  <div class="progress-bar progress-bar-animated progress-bar-striped js" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
+      <div className="progress m-0 p-0 rounded">
+  <div className="progress-bar progress-bar-animated progress-bar-striped js" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
 </div>
 <p className='my-2'><span className="material-icons">radio_button_checked</span> MongoDB</p>
-      <div class="progress m-0 p-0 rounded">
-  <div class="progress-bar progress-bar-animated progress-bar-striped mongo" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
+      <div className="progress m-0 p-0 rounded">
+  <div className="progress-bar progress-bar-animated progress-bar-striped mongo" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
 </div>
 <p className='my-2'><span className="material-icons">radio_button_checked</span> TypeScript</p>
-      <div class="progress m-0 p-0 rounded">
-  <div class="progress-bar progress-bar-animated progress-bar-striped ts" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
+      <div className="progress m-0 p-0 rounded">
+  <div className="progress-bar progress-bar-animated progress-bar-striped ts" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
 </div>
 <p className='my-2'><span className="material-icons">radio_button_checked</span> Material UI</p>
-      <div class="progress m-0 p-0 rounded">
-  <div class="progress-bar progress-bar-animated progress-bar-striped material" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
+      <div className="progress m-0 p-0 rounded">
+  <div className="progress-bar progress-bar-animated progress-bar-striped material" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
 </div>
 <p className='my-2'><span className="material-icons">radio_button_checked</span> Github</p>
-      <div class="progress m-0 p-0 rounded">
-  <div class="progress-bar progress-bar-animated progress-bar-striped rl" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
+      <div className="progress m-0 p-0 rounded">
+  <div className="progress-bar progress-bar-animated progress-bar-striped rl" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
 </div>
 <p className='my-2'><span className="material-icons">radio_button_checked</span> JQuery</p>
-      <div class="progress m-0 p-0 rounded">
-  <div class="progress-bar progress-bar-animated progress-bar-striped jq" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
+      <div className="progress m-0 p-0 rounded">
+  <div className="progress-bar progress-bar-animated progress-bar-striped jq" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
 </div>
 
 
     </div>
     <div className="col-md-6 my-1 ">
-    <p className='my-2'><span className="material-icons">radio_button_checked</span> Railway Cloud Deployment</p>
-      <div class="progress m-0 p-0 rounded">
-  <div class="progress-bar progress-bar-animated progress-bar-striped rl" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
+    <p className='my-2'><span className="material-icons">radio_button_checked</span> Deployment</p>
+      <div className="progress m-0 p-0 rounded">
+  <div className="progress-bar progress-bar-animated progress-bar-striped rl" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
 </div>
 
 <p className='my-2'><span className="material-icons">radio_button_checked</span> Node Package Manager</p>
-      <div class="progress m-0 p-0 rounded">
-  <div class="progress-bar progress-bar-animated progress-bar-striped npm" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
+      <div className="progress m-0 p-0 rounded">
+  <div className="progress-bar progress-bar-animated progress-bar-striped npm" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
 </div>
 
 <p className='my-2'><span className="material-icons">radio_button_checked</span> API Development</p>
-      <div class="progress m-0 p-0 rounded">
-  <div class="progress-bar progress-bar-animated progress-bar-striped api" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
+      <div className="progress m-0 p-0 rounded">
+  <div className="progress-bar progress-bar-animated progress-bar-striped api" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
 </div>
 <p className='my-2'><span className="material-icons">radio_button_checked</span> API Integration</p>
-      <div class="progress m-0 p-0 rounded">
-  <div class="progress-bar progress-bar-animated progress-bar-striped apii" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
+      <div className="progress m-0 p-0 rounded">
+  <div className="progress-bar progress-bar-animated progress-bar-striped apii" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
 </div>
 
 <p className='my-2'><span className="material-icons">radio_button_checked</span> HTML 5</p>
-      <div class="progress m-0 p-0 rounded">
-  <div class="progress-bar progress-bar-animated progress-bar-striped html" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
+      <div className="progress m-0 p-0 rounded">
+  <div className="progress-bar progress-bar-animated progress-bar-striped html" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
 </div>
 <p className='my-2'><span className="material-icons">radio_button_checked</span> CSS 3</p>
-      <div class="progress m-0 p-0 rounded">
-  <div class="progress-bar progress-bar-animated progress-bar-striped css" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
+      <div className="progress m-0 p-0 rounded">
+  <div className="progress-bar progress-bar-animated progress-bar-striped css" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
 </div>
 <p className='my-2'><span className="material-icons">radio_button_checked</span> Bootstrap</p>
-      <div class="progress m-0 p-0 rounded">
-  <div class="progress-bar progress-bar-animated progress-bar-striped bt" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
+      <div className="progress m-0 p-0 rounded">
+  <div className="progress-bar progress-bar-animated progress-bar-striped bt" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
 </div>
 <p className='my-2'><span className="material-icons">radio_button_checked</span> Cloudinary</p>
-      <div class="progress m-0 p-0 rounded">
-  <div class="progress-bar progress-bar-animated progress-bar-striped cd" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
+      <div className="progress m-0 p-0 rounded">
+  <div className="progress-bar progress-bar-animated progress-bar-striped cd" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
 </div>
     </div>
   </div>
@@ -189,15 +195,15 @@ export default function HomePage() {
 
   <div className="row services justify-content-center  mb-2 ">
     <div className="col-md-12">
-      <h2 className="text-center"><i class="fad fa-brackets-curly me-1"></i>Services</h2> 
+      <h2 className="text-center"><i className="fad fa-brackets-curly me-1"></i>Services</h2> 
       <p className='text-center'><b>Services</b> offered by me in Web Development as <strong className='border px-2 py-1 rounded my-1'>MERN Stack Developer</strong></p>
     </div>
     <div className="col-md-4">
-    <div class="card m-1 shadow rounded border-0" >
-  <img src={frontend} class="card-img-top" alt=""/>
-  <div class="card-body">
-    <h5 class="card-title">Frontend Development</h5>
-    <p class="card-text">Desiging interactive & user-friendly web applications using</p>
+    <div className="card m-1 shadow rounded border-0" >
+  <img src={frontend} className="card-img-top" alt=""/>
+  <div className="card-body">
+    <h5 className="card-title">Frontend Development</h5>
+    <p className="card-text">Desiging interactive & user-friendly web applications using</p>
     <div className="images">
       <img src={html} alt="" />
       <img src={css} alt="" />
@@ -212,11 +218,11 @@ export default function HomePage() {
 </div>
     </div>
     <div className="col-md-4">
-    <div class="card m-1 shadow rounded border-0" >
-  <img src={backend} class="card-img-top" alt=""/>
-  <div class="card-body">
-    <h5 class="card-title">Backend Development</h5>
-    <p class="card-text">Adding functionalities to the websites & web apps using modern JS frameworks</p>
+    <div className="card m-1 shadow rounded border-0" >
+  <img src={backend} className="card-img-top" alt=""/>
+  <div className="card-body">
+    <h5 className="card-title">Backend Development</h5>
+    <p className="card-text">Adding functionalities to the websites & web apps using modern JS frameworks</p>
     <div className="images">
       <img src={node} alt="" />
       <img className='ms-1' src={express} alt="" />
@@ -228,11 +234,11 @@ export default function HomePage() {
 </div>
     </div>
     <div className="col-md-4">
-    <div class="card m-1 shadow rounded border-0" >
-  <img src={fullstack} class="card-img-top" alt=""/>
-  <div class="card-body">
-    <h5 class="card-title">Full Stack Development</h5>
-    <p class="card-text">Design and Develop fully functional & user-friendly websites & web apps with </p>
+    <div className="card m-1 shadow rounded border-0" >
+  <img src={fullstack} className="card-img-top" alt=""/>
+  <div className="card-body">
+    <h5 className="card-title">Full Stack Development</h5>
+    <p className="card-text">Design and Develop fully functional & user-friendly websites & web apps with </p>
     <div className="images">
       <img  src={js} alt="" />
       <img className='ms-1' src={react} alt="" />
@@ -266,7 +272,7 @@ export default function HomePage() {
   <a href="/">788 R1, Johar Town Lahore</a>
   
     {/* <h6>Whatsapp at :</h6>
-    <a className='btn call m-0' href=" https://wa.me/923046760779" target="_blank"><i class="fab fa-whatsapp"></i> +92304-6760779</a> */}
+    <a className='btn call m-0' href=" https://wa.me/923046760779" target="_blank"><i className="fab fa-whatsapp"></i> +92304-6760779</a> */}
 
   
 </div>

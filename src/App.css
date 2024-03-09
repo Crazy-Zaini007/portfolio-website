@@ -388,6 +388,12 @@ height: 200%;
     font-size: 14px;
     letter-spacing: 1px;
 }
+.projects p strong{
+    text-align: justify;
+    font-size: 14px;
+    letter-spacing: 1px;
+    color: #007acc;
+}
 
 .projects .images{
     display: block;
